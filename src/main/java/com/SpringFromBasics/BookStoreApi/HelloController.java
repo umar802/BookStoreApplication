@@ -9,5 +9,6 @@ public class HelloController {
     @GetMapping("/hello")
     public String sayHello() {
         return "Hello Java World!";
+        System.out.println("I am adding here something and pulling");
     }
 }
